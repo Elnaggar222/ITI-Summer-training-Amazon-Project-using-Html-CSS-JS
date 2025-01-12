@@ -18,6 +18,12 @@ This project is a simplified e-commerce application developed as part of the **I
 - **JavaScript**
 
 ---
+## 📑 Project Pages
+
+1. **🏠 Home Page**: Displays all products with filtering and sorting options.
+2. **🔍 Product Details Page**: Provides a detailed view of selected products.
+
+---
 
 ## 🏠 Home Page
 
@@ -51,13 +57,6 @@ Clicking on a product card redirects to a detailed product view, showcasing:
 
 - Browse product images with a built-in **image slider**.
 - Clickable **thumbnails** for enhanced viewing, implemented purely with JavaScript.
-
----
-
-## 📑 Project Pages
-
-1. **🏠 Home Page**: Displays all products with filtering and sorting options.
-2. **🔍 Product Details Page**: Provides a detailed view of selected products.
 
 ---
 
