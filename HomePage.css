@@ -1,0 +1,128 @@
+.home-page-container {
+  padding: 20px;
+}
+.products-header {
+  color: darkblue;
+  margin-bottom: 10px;
+}
+.search-show-container {
+  padding: 10px;
+}
+.search-show-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.show-product-container {
+  float: left;
+  width: 50%;
+}
+.search-product-container {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+.search-product-container .product-label {
+  font-weight: 600;
+}
+.select-product {
+  padding: 3px 0px;
+}
+.show-product-button {
+  border: none;
+  background-color: darkblue;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.show-product-button:hover {
+  background-color: #0b0bb0;
+}
+.show-product-button:active {
+  background-color: #060677;
+}
+.seact-product-input {
+  padding: 3px;
+}
+/* #### */
+/* all-products  */
+.allproducts-container {
+  margin-top: 40px;
+  position: relative;
+  background-color: rgb(223, 223, 223);
+  border-radius: 10px;
+  padding: 8px;
+}
+.allproducts-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.product-box {
+  margin: 8px;
+  float: left;
+  max-width: 349px;
+  background-color: #f8f0f0;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.415);
+  transition: transform 0.5s;
+}
+.product-box:hover {
+  transform: scale(1.01) translateY(-10px);
+}
+.product-image {
+  width: 349px;
+  height: 300px;
+}
+.product-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.product-details {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  position: relative;
+}
+.product-title,
+.product-desc {
+  display: block;
+}
+.product-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.product-desc {
+  color: #555;
+  margin: 7px 0;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-price {
+  font-weight: bold;
+  color: darkblue;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.product-discount {
+  font-weight: bold;
+  color: red;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.loading {
+  text-align: center;
+  display: none;
+}
+.not-existed {
+  text-align: center;
+  color: red;
+}

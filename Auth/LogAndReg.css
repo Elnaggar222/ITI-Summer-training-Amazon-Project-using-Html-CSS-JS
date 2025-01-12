@@ -1,0 +1,87 @@
+.FormContainer {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg")
+      center;
+  background-size: cover;
+  position: absolute;
+  z-index: -100;
+}
+.form {
+  width: 80vw;
+  max-width: 350px;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 100px auto;
+  /* background-color: white; */
+}
+
+.HeaderForm {
+  text-align: center;
+  color: darkblue;
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.formInput {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-container-error > input {
+  border: 1px solid red;
+}
+.input-error-text {
+  color: red;
+}
+.formInput:focus {
+  outline: none;
+}
+.formBtn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 auto 10px auto;
+}
+.formBtn[type="submit"] {
+  margin-top: 20px;
+}
+.formBtn:hover {
+  background-color: #0b0bb0;
+}
+.formBtn:active {
+  background-color: #060677;
+}
+.formBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.toastify-top {
+  top: 0;
+  bottom: unset;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  max-width: -moz-fit-content;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
